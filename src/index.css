@@ -1,0 +1,15 @@
+@import "../src//assets/css/fonts.scss";
+
+:root{
+    --font-family: Inclusive Sans;
+}
+body {
+  margin: 0;
+  font-family: var(--font-family), 'sans-serif';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: var(--font-family), 'sans-serif';
+}

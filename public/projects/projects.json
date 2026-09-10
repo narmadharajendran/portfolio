@@ -1,0 +1,35 @@
+{
+    "projects":[
+        {
+            "title":"Kiosk",
+            "description":"A self-service kiosk application designed with multiple templates for an intuitive user experience.It allows guests to browse and select items from the menu seamlessly. The system supports secure payment processing for quick transactions.Guests can instantly print receipts upon order completion.",
+            "image":["images/projects-images/kiosk-home.png","images/projects-images/kiosk-menu.png", "images/projects-images/kiosk-outlets.png "],
+            "skills":["React", "Redux", "Html5", "Sass", "Javascript"]
+        },
+        {
+            "title":"Ondemand",
+            "description":"OnDemand is an online food ordering web application with a responsive design. It enables guests to browse menus, place instant or scheduled orders with specific dates and times. The platform supports multiple payment options for a smooth checkout experience. Admins can dynamically update menus and pricing based on date and time to optimize availability.",
+            "image":["images/projects-images/ondemand-home.png", "images/projects-images/ondemand-menu.png", "images/projects-images/ondemand-cart.png"],
+            "skills":["Html5", "Sass", "Javascript", "Redux", "React",  "ReduxToolKit"]
+        },
+        {
+            "title":"IG",
+            "description":"InfoGenesis is a powerful Point of Sale (POS) software tailored for the food service, restaurant, and retail industries. The system supports customizable menus, multiple payment options, and efficient transaction processing. With its user-friendly interface, InfoGenesis helps businesses improve service speed, accuracy, and overall customer experience.",
+            "image":["images/projects-images/Ig-home.png", "images/projects-images/Ig-menu.png"],
+            "skills":["Html5", "Sass", "Javascript"]
+        },
+        {
+            "title":"Portfolio",
+            "description":"This is my personal portfolio website built to showcase my skills, projects, and resume. Developed using TypeScript and React.js to ensure a scalable and maintainable codebase. Implemented Zustand for efficient and lightweight state management. The application is hosted on GitHub Pages, making it easily accessible online.",
+            "image":["images/projects-images/portfolio-home.png", "images/projects-images/portfolio-experience.png", "images/projects-images/portfolio-projects.png"],
+            "skills":["React", "Zustand", "Html5", "Sass", "Typescript"]
+        },
+        {
+            "title":"TicTacToe",
+            "description":"This is a Tic-Tac-Toe game website that offers both single-player and multi-player modes. Built with React.js, it delivers an engaging and interactive gaming experience. The multi-player mode includes move history tracking, allowing players to revisit and replay previous steps. The project is hosted on GitHub Pages, making it easily accessible to anyone online.",
+            "image":["images/projects-images/tic-tac-toe-home.png","images/projects-images/tic-tac-toe-1.png","images/projects-images/tic-tac-toe-2.png"],
+            "skills":["React", "Html5", "Sass", "Javascript"]
+        }
+        
+    ]
+}

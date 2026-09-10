@@ -1,0 +1,42 @@
+.home-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-color);
+    .header-icon{
+        font-size: 10rem;
+    }
+    .name{
+        // font-size: 400%;
+        text-align: center;
+        // font-weight: 600;
+        color: var(--font-color,#353239);
+        margin: 1rem auto 1rem;
+        width: 100%;
+    }
+    .button-group{
+        display: flex;
+        margin-top: 2.4rem;
+
+        button{
+            padding: 0.8rem;
+            border:none;
+            font-size: 1.5rem;
+        }
+        .resume-btn{
+            border:2px solid var(--border-color);
+            color: var(--font-color);
+            background-color: var(--bg-color);
+        }
+        .github-btn, .linkedin-btn{
+            background: none;
+            font-size: 2rem;
+        }
+        .icon-github, .linkedin-btn{
+            color:var(--home-page-icon-color)
+        }
+
+    }
+}

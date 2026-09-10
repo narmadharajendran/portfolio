@@ -1,0 +1,98 @@
+.carousel-container{
+  background-color: var(--organic-arrow-color);
+  padding: 0 0.5rem 0.5rem;
+  .header{
+    padding: 1rem 1rem 1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    display: flex;
+    gap: 1rem;
+    .circle{
+      height: 1rem;
+      width: 1rem;
+      border-radius: 50%;
+      display: block;
+      &.red{
+          background-color: rgb(237, 76, 92);
+      }
+      &.yellow{
+          background-color: rgb(253, 203, 88);
+      }
+      &.green{
+          background-color: rgb(120, 177, 89);;
+      }
+    }
+  }
+  .carousel-item{
+      img{
+        max-height: 350px;
+    }
+  }
+}
+.carousel-control{
+  &-prev, &-next{
+    @media screen and (max-width:992px){
+      display: none;
+    }
+  }
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none; /* remove default icon */
+  width: 6rem;
+  height: 6rem;
+}
+
+.carousel-control-prev-icon::after {
+  content: '❮';        /* left arrow */
+  color: var(--organic-arrow-color);  /* custom color */
+  font-size: 6rem;
+}
+
+.carousel-control-next-icon::after {
+  content: '❯';        /* right arrow */
+  color: var(--organic-arrow-color);  /* custom color */
+  font-size: 6rem;
+}
+.carousel.slide{
+  .carousel-indicators{
+    display: none;
+  }
+}
+.carousel-indicators [data-bs-target] {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--organic-arrow-color); /* your beige/brown color */
+  margin: 0 6px;
+  border: none;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.carousel-indicators .active {
+  background-color: var(--organic-arrow-color); /* darker brown for active */
+  opacity: 1;
+  transform: scale(1.5);
+}
+.custom-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.dot {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: var(--organic-arrow-color); /* beige/brown */
+  margin: 0 6px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  background-color: var(--organic-arrow-color); /* darker brown */
+  opacity: 1;
+  transform: scale(1.5);
+}

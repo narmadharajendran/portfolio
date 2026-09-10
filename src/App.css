@@ -1,0 +1,53 @@
+.App {
+  /* height: 100vh; */
+  overflow: auto;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+}
+.light{
+  --font-color: #353239;
+  --font-color-1:#fff;
+  --border-color: #000;
+  --bg-color:#e9d5a1;
+  --bg-color-2:#fff;
+  --bg-color-3:#1f1f1f;
+  --home-page-icon-color: #000;
+  --card-bg-color:#fff;
+  --organic-arrow-color:#d7caaa;
+  --skill-tile-bg:rgba(248, 245, 244, .05);
+  --experience-content-card-bg:#fff;
+  --tech-bg-color:#f9f5e9;
+  --main-tech-bg-color:#AE944F
+}
+
+.dark{
+  --font-color: #fff;
+  --font-color-1:#fff;
+  --border-color: #fff;
+  --bg-color: #494949;
+  --bg-color-2:#7f7f7f;
+  --bg-color-3:#1f1f1f;
+  --home-page-icon-color: #fff;
+  --card-bg-color:#6d6d6d;
+  --organic-arrow-color:#8c8c8c;
+  --skill-tile-bg:rgba(248, 245, 244, .05);
+  --experience-content-card-bg:#f8f3f3;
+  --tech-bg-color:#919191;
+  --main-tech-bg-color:#919191
+}
+h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  
+  @media screen and (min-width: 768px) {
+    font-size: 2.8rem;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 3rem;
+  }
+}
+
+
+
