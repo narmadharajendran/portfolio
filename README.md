@@ -25,12 +25,12 @@ Hosting: GitHub Pages
 
 ## 📌 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Click%20Here-blue?style=for-the-badge)](https://narmadharajendran.github.io/My-Portfolio/)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Click%20Here-blue?style=for-the-badge)](https://narmadharajendran.github.io/portfolio/)
 
 
 # How to Run
 # Clone the repo
-git clone https://github.com/narmadharajendran/My-Portfolio
+git clone https://github.com/narmadharajendran/portfolio
 
 # Install dependencies
 npm install
