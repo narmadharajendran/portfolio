@@ -33,12 +33,16 @@
         align-items: center;
         gap:1rem;
         min-width: 150px;
+        justify-content: space-between;
 
         @media screen and (max-width:575px){
             min-width: 145px;  
         }
         .skill-icon{
             font-size: 4rem;
+            &.icon-expressjs{
+                padding-top: 10px;
+            }
         }
     }
 }
