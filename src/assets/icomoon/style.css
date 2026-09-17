@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?nbabqc');
-  src:  url('fonts/icomoon.eot?nbabqc#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?nbabqc') format('truetype'),
-    url('fonts/icomoon.woff?nbabqc') format('woff'),
-    url('fonts/icomoon.svg?nbabqc#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?d3m8fz');
+  src:  url('fonts/icomoon.eot?d3m8fz#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?d3m8fz') format('truetype'),
+    url('fonts/icomoon.woff?d3m8fz') format('woff'),
+    url('fonts/icomoon.svg?d3m8fz#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -30,11 +30,11 @@
 }
 .icon-mongodb:before {
   content: "\e90d";
-  /* color: #47a248; */
+  color: #47a248;
 }
 .icon-nodejs:before {
   content: "\e90e";
-  /* color: #393; */
+  color: #393;
 }
 .icon-linked-in:before {
   content: "\e90f";
@@ -74,4 +74,7 @@
 }
 .icon-react:before {
   content: "\e900";
+}
+.icon-close:before {
+  content: "\ea0f";
 }
