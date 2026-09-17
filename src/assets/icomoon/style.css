@@ -30,11 +30,11 @@
 }
 .icon-mongodb:before {
   content: "\e90d";
-  color: #47a248;
+  /* color: #47a248; */
 }
 .icon-nodejs:before {
   content: "\e90e";
-  color: #393;
+  /* color: #393; */
 }
 .icon-linked-in:before {
   content: "\e90f";
